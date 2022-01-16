@@ -1,6 +1,6 @@
 # My work assignment Title
 
-Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group ALPHA : [@MarcoOliveira](https://github.com/marcoamarooliveira), [add others].
+Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group 04 : [@JoaoGoncalves](https://github.com/joaogoncalves7), [@BrunoAlmeida](https://github.com/TheHike), [@SimaoCoroa](https://github.com/SimaoCoroa).
 
 ## Short theme description
 
@@ -23,23 +23,16 @@ _Indicate the technologies you have used in this assignment. Please provide link
 * XML
 * HTML5 + CSS3
 * Javascript
-* PHP
+* JQuery
 * nodeJS
-* _Any other?_
+
 
 ### Frameworks and Libraries
 
 _Did you use any aditional libraries? Describe them here._
-* Docker
-* Multipass
-* NodeJS
 * JQuery
-* Laravel
-* Bootstrap
 
 ## Report
-_Please add at least on section (a file) per Chapter. But you can add more._
-
 ### Project presentation
 * Chapter 1: [Project presentation](doc/c1.md)
 ### User Interface 
@@ -50,5 +43,6 @@ _Please add at least on section (a file) per Chapter. But you can add more._
 * Chapter 4: [Presentation](doc/c4.md)
 
 ## Team
-* Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
-* Other team members
+* João Gonçalves [@JoaoGoncalves](https://github.com/joaogoncalves7)
+* Bruno Almeida [@BrunoAlmeida](https://github.com/TheHike)
+* Simão Coroa [@SimaoCoroa](https://github.com/SimaoCoroa)
