@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Amazónia - Biocenose</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <aside class="side_bar">
+        <nav class="nav">
+            <h3>Amazónia</h3>
+
+            <ul>
+                <li><a class="custom_link" href="index.html">Início</a></li>
+                <li><a class="custom_link" href="historia.html">História</a></li>
+                <li><a class="custom_link" href="biocenose.html">| Biocenose</a></li>
+                <li><a class="custom_link" href="curiosidades.html">Curiosidades</a></li>
+            </ul>
+
+        </nav>
+    </aside>
+
+    <main class="main_section">
+        <header class="header_links">
+            <a id="id_to_hover" href="https://github.com/TI-04/-tiwm2021-ti-g04">tiwm2021-ti-g04-Biocenose</a>
+        </header>
+
+        <article class="article">
+            <h1>Biocenose</h1>
+
+            <div class="article_right">
+                <div class="article_right_inside">
+                    <img src="images/tatucanastra.jpg" alt="tatu-canastra">
+                </div>
+                Tatu-canastra
+            </div>
+
+            <p>Biocenose, biota ou comunidade biológica é o grupo de diferentes seres vivos de diferentes espécies que coexistem e desenvolvem sua reprodução no mesmo biótopo.</p>
+            <p>A biocenose é divisivel em três ramos distintos: zoocenose para os <strong>animais</strong>, a fitocenose para as <strong>plantas</strong> e a microbiocenose para os <strong>microrganismos</strong>.</p>
+            <div class="content_panel">
+                <div class="content_header">Índice</div>
+                <ul>
+                    <li><span>1.</span><a href="#id_flora">A Flora</a></li>
+                    <li><span>2.</span><a href="#id_fauna">A Fauna</a></li>
+                    <li><span>3.</span><a href="#id_video">Vida selvagem na Amazónia</a></li>
+                </ul>
+            </div>
+
+            <h2 id="id_flora">A Flora</h2>
+
+            <table id="animal_table" class="table_design">
+                <caption>Flora</caption>
+
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Nome científico</th>
+                        <th>Espécie</th>
+                        <th>Classe</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Açaí</td>
+                        <td>Euterpe oleracea</td>
+                        <td>E. oleracea</td>
+                        <td>Liliopsida</td>
+                        <td><img src="https://ferdinandodesousa.files.wordpress.com/2021/01/acai.jpg?w=1024" alt="Açaí"></td>
+                    </tr>
+                    <tr>
+                        <td>Seringueira</td>
+                        <td>Hevea brasiliensis</td>
+                        <td>H. brasiliensis</td>
+                        <td>Magnoliopsida</td>
+                        <td><img src="https://blog.buscarrural.com/wp-content/uploads/elementor/thumbs/Buscar-Rural-seringueira-scaled-pa78yxlmbgksmvzb3fpfs2zlwg0fzrqinc7mpefomo.jpg" alt="Seringueira"></td>
+                    </tr>
+                    <tr>
+                        <td>Andiroba</td>
+                        <td>Carapa guianensis</td>
+                        <td>C. guianensis</td>
+                        <td>Magnoliopsida</td>
+                        <td><img src="https://www.infoescola.com/wp-content/uploads/2020/01/andiroba-sementes-1194558118.jpg" alt="Andiroba"></td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>IMAGEM</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h2 id="id_fauna">A Fauna</h2>
+
+            <div id="animals"></div>
+            <h2 id="id_video">Vídeo sobre a vida selvagem na Amazónia</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AhP5Tg_BLIk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        </article>
+
+        <footer class="page_footer">
+            <div class="footer_links">
+                <a href="#">Sobre</a> <a href="#">Privacidade</a> <a href="#">Termos e condições</a> <a href="#">Desenvolvedores</a>
+            </div>
+        </footer>
+
+    </main>
+
+    <script>
+        var oXHR = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+
+        function reportStatus() {
+            if (oXHR.readyState == 4)
+                import_xml_table(this.responseXML);
+        }
+
+        oXHR.onreadystatechange = reportStatus;
+        oXHR.open("GET", "xml/animals.xml", true);
+        oXHR.send();
+
+        function import_xml_table(xml) {
+
+            var animals_div = document.getElementById('animals');
+            var animal_list = xml.getElementsByTagName('animal');
+
+            var table = document.createElement('table');
+
+            var tr_header = document.createElement('tr');
+            var th_col_1 = document.createElement('th');
+            var th_col_2 = document.createElement('th');
+            var th_col_3 = document.createElement('th');
+            var th_col_4 = document.createElement('th');
+            var th_col_5 = document.createElement('th');
+            var th_col_6 = document.createElement('th');
+
+            // <id>
+            // <name>
+            // <scientific_name>
+            // <specicies>
+            // <class>
+            // <image>
+
+            // th_col_1.innerHTML = "id";
+            th_col_2.innerHTML = "Nome";
+            th_col_3.innerHTML = "Nome científico";
+            th_col_4.innerHTML = "Espécie";
+            th_col_5.innerHTML = "Classe";
+            th_col_6.innerHTML = "";
+
+            // tr_header.appendChild(th_col_1);
+            tr_header.appendChild(th_col_2);
+            tr_header.appendChild(th_col_3);
+            tr_header.appendChild(th_col_4);
+            tr_header.appendChild(th_col_5);
+            tr_header.appendChild(th_col_6);
+
+            animals_div.appendChild(table);
+            table.appendChild(tr_header);
+
+            table.setAttribute("id", "animal_table");
+            table.setAttribute("class", "table_design");
+
+            for (var i = 0; i < animal_list.length; i++) {
+                var tr = document.createElement('tr');
+
+                var td_col_1 = document.createElement('td');
+                var td_col_2 = document.createElement('td');
+                var td_col_3 = document.createElement('td');
+                var td_col_4 = document.createElement('td');
+                var td_col_5 = document.createElement('td');
+                var td_col_6 = document.createElement('td');
+
+                // td_col_1.innerHTML = animal_list[i].getElementsByTagName("id")[0].childNodes[0].nodeValue;
+                td_col_2.innerHTML = animal_list[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+                td_col_3.innerHTML = animal_list[i].getElementsByTagName("scientific_name")[0].childNodes[0].nodeValue;
+                td_col_4.innerHTML = animal_list[i].getElementsByTagName("species")[0].childNodes[0].nodeValue;
+                td_col_5.innerHTML = animal_list[i].getElementsByTagName("class")[0].childNodes[0].nodeValue;
+
+                var img = animal_list[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
+                td_col_6.innerHTML = "<img src=" + img + ">"
+
+                // tr.appendChild(td_col_1);
+                tr.appendChild(td_col_2);
+                tr.appendChild(td_col_3);
+                tr.appendChild(td_col_4);
+                tr.appendChild(td_col_5);
+                tr.appendChild(td_col_6);
+
+                table.appendChild(tr);
+            }
+        };
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>

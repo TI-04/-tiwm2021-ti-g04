@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<animals>
+	<animal>
+		<id>1</id>
+		<name>Anta</name>
+        <scientific_name>Tapirus terrestris</scientific_name>
+		<species>T. terrestris</species>
+		<class>Mamíferos</class>
+        <image>https://www.worldanimalprotection.org.br/sites/default/files/styles/1200x630/public/media/br_files/anta_cc.jpg?itok=BIa0o9lF</image>
+	</animal>
+    <animal>
+		<id>2</id>
+		<name>Harpia</name>
+        <scientific_name>Harpia harpyja</scientific_name>
+		<species>H. harpyja</species>
+		<class>Aves</class>
+        <image>https://animalbusiness.com.br/wp-content/uploads/2020/04/Harpia-Thumb.jpg</image>
+	</animal>
+    <animal>
+		<id>3</id>
+		<name>Jaguar</name>
+        <scientific_name>Panthera onca</scientific_name>
+		<species>P. onca</species>
+		<class>Mammalia</class>
+        <image>http://www.portaldosanimais.com.br/wp-content/uploads/2017/02/Animal-Jaguar-H%C3%A1bitos-e1504561267421.jpg</image>
+	</animal>
+</animals>
