@@ -8,14 +8,14 @@ An example report using markdown on Github. This documentation is writen using [
 
 ## Repository organization
 
-_Please help reader navigate around describing how the repository is organized by providing links_
 * **Source code** is in the [src folder](src/).
 * Report chapters are in [doc folder](doc/).
 
 ## Gallery
 
-_Please provide a galery of the final result, with small images_
-A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull to organize the images.
+Home page header            |  Home page footer 
+:-------------------------:|:-------------------------:
+![](doc/images/home_header.png)  |  ![](doc/images/home_header.png)
 
 ## Technologies
 
@@ -24,12 +24,9 @@ _Indicate the technologies you have used in this assignment. Please provide link
 * HTML5 + CSS3
 * Javascript
 * JQuery
-* nodeJS
-
 
 ### Frameworks and Libraries
 
-_Did you use any aditional libraries? Describe them here._
 * JQuery
 
 ## Report
