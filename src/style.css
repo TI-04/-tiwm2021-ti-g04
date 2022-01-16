@@ -524,8 +524,8 @@
     
     @media screen and (max-width: 900px) {
         .adjust_video_size {
-            width: auto - 20px;
-            height: 115px
+            width: 170px;
+            height: 115px;
         }
         table.table_design {
             border: 0;
