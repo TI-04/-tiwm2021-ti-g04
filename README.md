@@ -9,7 +9,7 @@ Our project work will address the theme: Forests, more specifically the Amazon r
 ## Repository organization
 
 * **Source code** is in the [src folder](src/).
-* Report chapters are in [doc folder](doc/).
+* **Report chapters** are in [doc folder](doc/).
 
 ## Gallery
 
