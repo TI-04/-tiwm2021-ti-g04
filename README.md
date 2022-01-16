@@ -24,7 +24,6 @@ Fact form            |  History page
 
 ## Technologies
 
-_Indicate the technologies you have used in this assignment. Please provide links for the user to read more about those technologies._
 * XML
 * HTML5 + CSS3
 * Javascript
