@@ -27,7 +27,7 @@ Fact form            |  History page
 * XML
 * HTML5 + CSS3
 * Javascript
-
+* JQuery
 
 ## Report
 ### Project presentation
