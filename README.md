@@ -1,10 +1,10 @@
-# Forests - Amazon Forest
+# My work assignment Title
 
-Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group 04 : [@JoaoGoncalves](https://github.com/joaogoncalves7), [@BrunoAlmeida](https://github.com/TheHike), [@SimaoCoroa](https://github.com/SimaoCoroa).
+Repository to host the project developed for Tecnologias Internet, a first year subject at Instituto Politécnico da Maia. Developed by Group 04 : [@JoaoGoncalves](https://github.com/joaogoncalves7), [@BrunoAlmeida](https://github.com/TheHike), [@SimaoCoroa](https://github.com/SimaoCoroa).
 
 ## Short theme description
 
-An example report using markdown on Github. This documentation is writen using [Markdown](https://www.markdownguide.org/). Here is a [link to the basic syntax](https://www.markdownguide.org/basic-syntax), but an [extended syntax](https://www.markdownguide.org/extended-syntax/) is also available. If you're starting with Markdown, you may want to try a [Markdown Tutorial](https://www.markdowntutorial.com/) and read the [getting started](https://www.markdownguide.org/getting-started/) section.
+Our project work will address the issue of Forests, more specifically the Amazon rainforest, the largest in the world. We aim to talk about not only recent events related to deforestation, but also its history, biome and other curiosities.
 
 ## Repository organization
 
@@ -17,9 +17,9 @@ Home page header            |  Home page footer
 :-------------------------:|:-------------------------:
 ![](doc/images/home_header.png)  |  ![](doc/images/home_footer.png)
 
-Fact form            |  XML Table 
+Fact form            |  History page
 :-------------------------:|:-------------------------:
-![](doc/images/fact_form.png)  |  ![](doc/images/animal_table.png)
+![](doc/images/fact_form.png)  |  ![](doc/images/how_it_started.png)
 
 
 ## Technologies
