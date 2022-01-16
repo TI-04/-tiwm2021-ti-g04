@@ -4,7 +4,7 @@ Repository to host the project developed for Tecnologias Internet, a first year 
 
 ## Short theme description
 
-Our project work will address the issue of Forests, more specifically the Amazon rainforest, the largest in the world. We aim to talk about not only recent events related to deforestation, but also its history, biome and other curiosities.
+Our project work will address the issue of Forests, more specifically the Amazon rainforest, the largest in the world. We aim to not only talk about recent events related to deforestation, but also its history, biome and other curiosities.
 
 ## Repository organization
 
