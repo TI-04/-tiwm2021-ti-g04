@@ -10,7 +10,7 @@ Our project work will address the theme: Forests, more specifically the Amazon r
 
 * **Source code** is in the [src folder](src/).
 * **Report chapters** are in [doc folder](doc/).
-* **Complete report** can be found here [Markdown](doc/full_report.md) [PDF](doc/full_report.pdf).
+* **Complete report** can be found in [Markdown](doc/full_report.md) or [PDF](doc/full_report.pdf).
 ## Gallery
 
 Home page header            |  Home page footer 
