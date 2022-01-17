@@ -8,7 +8,7 @@
 		<class>Mamíferos</class>
         <image>https://www.worldanimalprotection.org.br/sites/default/files/styles/1200x630/public/media/br_files/anta_cc.jpg?itok=BIa0o9lF</image>
 	</animal>
-    <animal>
+    	<animal>
 		<id>2</id>
 		<name>Harpia</name>
         <scientific_name>Harpia harpyja</scientific_name>
@@ -16,7 +16,7 @@
 		<class>Aves</class>
         <image>https://animalbusiness.com.br/wp-content/uploads/2020/04/Harpia-Thumb.jpg</image>
 	</animal>
-    <animal>
+    	<animal>
 		<id>3</id>
 		<name>Jaguar</name>
         <scientific_name>Panthera onca</scientific_name>
